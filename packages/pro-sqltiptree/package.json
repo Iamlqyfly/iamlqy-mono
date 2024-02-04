@@ -1,6 +1,6 @@
 {
   "name": "@iamlqy/pro-sqltiptree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "@iamlqy components pro-sqltiptree",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",

@@ -31,8 +31,8 @@ export * from './regexp/isIdCard'
 export * from './regexp/isPhoneNum'
 export * from './regexp/isUrl'
 
-// string
-export * from './string/digitUppercase'
+// // string
+// export * from './string/digitUppercase'
 
 // time
 export * from './time/formatPassTime'
