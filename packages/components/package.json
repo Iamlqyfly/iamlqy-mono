@@ -1,6 +1,6 @@
 {
-  "name": "@ah-ailpha/components",
-  "version": "2.1.0",
+  "name": "@iamlqy/components",
+  "version": "1.0.0",
   "description": "all components are settled here",
   "types": "index.d.ts",
   "sideEffects": false,

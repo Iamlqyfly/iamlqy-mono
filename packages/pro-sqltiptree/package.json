@@ -1,7 +1,7 @@
 {
-  "name": "@ah-ailpha/pro-sqltiptree",
-  "version": "1.5.0",
-  "description": "@ah-ailpha components pro-sqltiptree",
+  "name": "@iamlqy/pro-sqltiptree",
+  "version": "1.0.0",
+  "description": "@iamlqy components pro-sqltiptree",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",
   "sideEffects": false,
