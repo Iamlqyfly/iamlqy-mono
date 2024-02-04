@@ -1,0 +1,32 @@
+{
+  "name": "@ah-ailpha/pro-sqltiptree",
+  "version": "1.5.0",
+  "description": "@ah-ailpha components pro-sqltiptree",
+  "main": "dist/index.min.js",
+  "typings": "types/index.d.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "view-design": "^4.3.2",
+    "vue": "^2.6.10"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "pnpm run clean && webpack --config webpack.config.js"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "src",
+    "types",
+    "CHANGELOG.md",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,14 @@
+/**/yarn.lock
+/**/pnpm-lock.yaml
+/**/dist
+/**/lib
+/**/__tests__
+/**/node_modules
+/**/assets
+/**/public
+packages/view-design
+
+packages/utils/lib
+packages/utils/es
+packages/utils/dist
+packages/utils/types
