@@ -23,8 +23,9 @@
     "build:packages": "pnpm run --filter \"./packages/**\" -r --parallel build",
     "preversion": "changeset",
     "version": "changeset version && pnpm install --no-frozen-lockfile && pnpm run format:code",
-    "release": "pnpm run clean && pnpm run build:packages && changeset publish",
-    "release:nobuild": "changeset publish",
+    "prepublishOnly": "npm run clean && pnpm run build:packages",
+    "publish": "changeset publish",
+    "postpublish": "npm run clean",
     "format:code": "prettier -w . --cache --plugin-search-dir=.",
     "pretty-quick": "pretty-quick --staged"
   },
