@@ -2,7 +2,7 @@
   <input :class="classes" />
 </template>
 <script>
-const prefixCls = 'ah-select'
+const prefixCls = 'iamlqy-select'
 
 export default {
   name: 'AhSelect',

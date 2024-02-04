@@ -6,11 +6,15 @@
 /**/.DS_Store
 /**/node_modules/
 /**/.env
+
 # /**/dist
 docs/**/dist
+
 
 # Logs
 /**/yarn-error.log
 /**/npm-debug.log
 /**/lerna-debug.log
 /**/.pnpm-debug.log
+
+

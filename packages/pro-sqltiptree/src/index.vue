@@ -1,6 +1,6 @@
 <template>
   <div :class="classes">
-    <Card title="AhProSqlTipTree 组件" style="width: 600px">
+    <Card title="iamlqyProSqlTipTree 组件" style="width: 600px">
       <Select v-model="model1">
         <Option v-for="item in cityList" :key="item.value" :value="item.value">{{ item.label }}</Option>
       </Select>

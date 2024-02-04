@@ -31,8 +31,8 @@ export * from './regexp/isIdCard'
 export * from './regexp/isPhoneNum'
 export * from './regexp/isUrl'
 
-// string
-export * from './string/digitUppercase'
+// // string
+// export * from './string/digitUppercase'
 
 // time
 export * from './time/formatPassTime'
@@ -41,7 +41,3 @@ export * from './time/isLeapYear'
 export * from './time/isSameDay'
 export * from './time/getMonthDays'
 export * from './time/getTimeLeft'
-
-// url
-export * from './url/parseQueryString'
-export * from './url/stringfyQueryString'
