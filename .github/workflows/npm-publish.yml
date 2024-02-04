@@ -5,7 +5,7 @@ name: Node.js Package
 
 on:
   push:
-    branches: ['main']
+    branches: ['main', 'master']
 
 jobs:
   build:
@@ -36,7 +36,7 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install
-      - run: pnpm run build
+
       - run: pnpm run publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
