@@ -25,7 +25,6 @@
     "version": "changeset version && pnpm install --no-frozen-lockfile && pnpm run format:code",
     "prepublishOnly": "npm run clean && pnpm run build:packages",
     "publish": "changeset publish",
-    "postpublish": "npm run clean",
     "format:code": "prettier -w . --cache --plugin-search-dir=.",
     "pretty-quick": "pretty-quick --staged"
   },
