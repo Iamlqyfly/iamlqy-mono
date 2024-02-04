@@ -1,5 +1,11 @@
 # @iamlqy/pro-sqltiptree
 
+## 1.0.2
+
+### Patch Changes
+
+- chore: update text
+
 ## 1.0.1
 
 ### Patch Changes
