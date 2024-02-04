@@ -1,6 +1,6 @@
 {
   "name": "@iamlqy/pro-sqltiptree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@iamlqy components pro-sqltiptree",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",
@@ -27,6 +27,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

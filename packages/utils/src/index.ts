@@ -41,7 +41,3 @@ export * from './time/isLeapYear'
 export * from './time/isSameDay'
 export * from './time/getMonthDays'
 export * from './time/getTimeLeft'
-
-// url
-export * from './url/parseQueryString'
-export * from './url/stringfyQueryString'
