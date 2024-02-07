@@ -9,6 +9,8 @@
 </template>
 <script>
 const prefixCls = 'ah-proSqlTipTree'
+import Button from '@iamlqy/components';
+
 // 测试版本发布 1.5.0
 export default {
   name: 'AhProSqlTipTree',
@@ -49,6 +51,9 @@ export default {
       ],
       model1: '',
     }
+  },
+  mounted() {
+    console.debug(Button, 'Button-')
   },
   computed: {
     classes() {

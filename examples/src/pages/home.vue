@@ -1,17 +1,17 @@
 <template>
   <div class="hello">
-    <Card title="@ah-ailpha/components 组件测试之 AnButton">
+    <Card title="@iamlqy/components 组件测试之 AnButton">
       <ah-button class="btn">default</ah-button>
       <ah-button class="btn" type="success">success</ah-button>
       <ah-button class="btn" size="large">default large</ah-button>
       <ah-button class="btn" type="success" size="large">success large</ah-button>
     </Card>
     <Divider />
-    <Card title="@ah-ailpha/pro-sqltiptree 组件测试">
+    <Card title="@iamlqy/pro-sqltiptree 组件测试">
       <ah-proSqlTipTree />
     </Card>
     <Divider />
-    <Card title="@ah-ailpha/utils 工具库测试">
+    <Card title="@iamlqy/utils 工具库测试">
       <p>{{ passTime }}距现在的已过时间：{{ pass }}</p>
       <p>现在距{{ remainTime }}的剩余时间：{{ remain }}</p>
       <p>随机颜色：{{ color }}</p>

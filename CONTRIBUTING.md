@@ -39,7 +39,7 @@ nrm use taobao
 
    # 比如要将lodash装到package-a下
    # --filter 后面可以为目录名称也可以为 package.josn 的 name 名称
-   pnpm add dayjs --filter @ah-ailpha/package-a
+   pnpm add dayjs --filter @iamlqy/package-a
    ```
 
    或者你也可以单独进入到需要的工作区安装依赖（不建议此方式）
@@ -53,7 +53,7 @@ nrm use taobao
 3. 创建或进入子项目中进行开发
 
    - `mkdir xx && cd xx && npm init -y` 快速创建一个子项目
-   - 你需要确保的是 `package.json`文件的 name 必须以`@ah-ailpha/xx`这样的形式命名
+   - 你需要确保的是 `package.json`文件的 name 必须以`@iamlqy/xx`这样的形式命名
 
 4. 确定包版本
 
@@ -82,10 +82,10 @@ nrm use taobao
 
 示例：
 
-当我们需要进行 `@ah-ailpha/pro-sqltiptree`包的开发调试时，首先在根目录下执行安装命令
+当我们需要进行 `@iamlqy/pro-sqltiptree`包的开发调试时，首先在根目录下执行安装命令
 
 ```sh
-pnpm i @ah-ailpha/pro-sqltiptree@* --filter examples
+pnpm i @iamlqy/pro-sqltiptree@* --filter examples
 ```
 
 这里我们选择指定版本为 \*，方便我们进行开发调试，保证依赖为实时最新状态

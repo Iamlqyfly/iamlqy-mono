@@ -31,6 +31,12 @@ module.exports = merge(webpackBaseConfig, {
       // vue: 'vue/dist/vue.esm.js',
       // vue: 'vue/dist/vue.runtime.js'
     },
+    modules: [
+      path.resolve(basePath, 'src'),
+      path.resolve(basePath, '../packages'),
+      path.resolve(basePath, '../node_modules'),
+    ],
+    extensions: ['.js', '.jsx', '.scss'],
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({ name: 'vendors', filename: 'vendor.bundle.js' }),

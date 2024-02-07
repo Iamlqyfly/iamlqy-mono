@@ -15,7 +15,6 @@ export * from './regexp/isEmail';
 export * from './regexp/isIdCard';
 export * from './regexp/isPhoneNum';
 export * from './regexp/isUrl';
-export * from './string/digitUppercase';
 export * from './time/formatPassTime';
 export * from './time/formatRemainTime';
 export * from './time/isLeapYear';

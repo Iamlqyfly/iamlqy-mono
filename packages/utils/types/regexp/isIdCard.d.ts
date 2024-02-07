@@ -5,5 +5,3 @@
  * @return {Boolean}
  */
 export declare function isIdCard(str: string): boolean;
-
-export const test = 'test'
